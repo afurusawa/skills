@@ -7,12 +7,18 @@ may document their own tool or environment requirements.
 
 ## Skills
 
-No skills yet. This repository currently contains the foundation for writing and
-maintaining them.
+| Skill | Purpose |
+| --- | --- |
+| [retro-explain](skills/retro-explain/SKILL.md) | Explain retro proposals in plain language, with specific changes and concrete examples. |
+
+`retro-explain` is a follow-up to [Matt Pocock’s retro skill](https://github.com/mattpocock/skills/blob/main/skills/engineering/retro/SKILL.md),
+written using his [writing-for-agents guidance](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md).
+Invoke it after a retro to explain the recommendations. It preserves retro’s
+explicit-invocation setting (`disable-model-invocation` on agents that support it).
 
 ## Install
 
-Once skills have been added, use the [skills CLI](https://github.com/vercel-labs/skills)
+Use the [skills CLI](https://github.com/vercel-labs/skills)
 to choose skills and target agents. The CLI requires Node.js 22.20 or later.
 
 From the project where you want to use the skills:
@@ -33,8 +39,7 @@ To try unpublished changes, install from this checkout’s absolute path instead
 npx skills add /absolute/path/to/skills
 ```
 
-These commands will have nothing to install until the first skill exists. They
-copy or link skills into the selected agents’ discovery locations; the library
+These commands copy or link skills into the selected agents’ discovery locations; the library
 itself does not require agent plugins or a custom runtime.
 
 ## Add a skill
