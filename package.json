@@ -1,0 +1,19 @@
+{
+  "name": "afurusawa-skills",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Andrew’s personal library of portable agent skills",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "test": "node --test",
+    "check": "npm run validate && npm test"
+  },
+  "devDependencies": {
+    "yaml": "2.9.1"
+  }
+}

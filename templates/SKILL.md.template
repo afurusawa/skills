@@ -1,0 +1,10 @@
+---
+name: "{{skill-name}}"
+description: "{{Describe what this skill does and when an agent should use it.}}"
+---
+
+# {{Skill title}}
+
+{{Describe the intended outcome and the useful knowledge or decisions needed to achieve it.}}
+
+{{Add workflow guidance and examples only where they help. Link supporting references if needed.}}
