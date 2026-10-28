@@ -39,4 +39,4 @@ Use the user’s reply to identify their choice unless the host explicitly repor
 
 ## Capture when done
 
-Fold the validated design into the app using its existing conventions and real behavior, then verify the result. Preserve the HTML exploration on a throwaway branch and record the question, decision, and branch pointer in the implementation issue or commit. Main keeps only the validated changes.
+Fold the validated design into the app using its existing conventions and real behavior, then verify the result. Preserve the HTML exploration on a throwaway branch and record the question, decision, and branch pointer in the implementation issue or commit. Once the implementation is verified and the branch contains the exploration, remove the HTML artifacts created for this work from the working tree and confirm none remain. If verification or preservation fails, retain them and report what remains. Main keeps only the validated changes.
