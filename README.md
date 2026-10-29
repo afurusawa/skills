@@ -11,6 +11,7 @@ may document their own tool or environment requirements.
 | --- | --- |
 | [retro-explain](skills/retro-explain/SKILL.md) | Explain retro proposals in plain language, with specific changes and concrete examples. |
 | [iterate-design](skills/iterate-design/SKILL.md) | Refine an existing interface in an interactive HTML copy, compare component styles inline, and apply the agreed changes to the app when requested. |
+| [to-product-owner](skills/to-product-owner/SKILL.md) | Reframe technical output as prose or a separate HTML artifact around user value, use cases, product vision, and usability for a product owner. |
 
 `retro-explain` is a follow-up to [Matt Pocock’s retro skill](https://github.com/mattpocock/skills/blob/main/skills/engineering/retro/SKILL.md),
 written using his [writing-for-agents guidance](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md).
@@ -19,6 +20,9 @@ explicit-invocation setting (`disable-model-invocation` on agents that support i
 
 `iterate-design` is inspired by [Matt Pocock’s prototype skill](https://github.com/mattpocock/skills/blob/main/skills/engineering/prototype/SKILL.md)
 and written using his
+[writing-for-agents guidance](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md).
+
+`to-product-owner` is written using Matt Pocock’s
 [writing-for-agents guidance](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md).
 
 ## Install
