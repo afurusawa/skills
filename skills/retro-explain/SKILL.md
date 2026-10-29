@@ -10,7 +10,7 @@ Explain the latest retro in the current conversation, or the retro the user iden
 
 Keep the retro’s order and cover each recommendation. For each:
 
-- Use a short, everyday heading and explain the problem in one or two plain sentences.
+- Use a short, everyday heading. Lead with one concise, plain-language sentence describing the practical outcome for the user or project, then explain the problem it addresses.
 - State the specific changes proposed: what would be added, edited, or removed, and where. Name relevant files, commands, checks, or instructions and explain their purpose.
 - Give a concrete example showing what would happen differently after those changes. Show the actual proposed edit or behavior, beyond its general benefit. For an instruction change, show sample wording; for a tool change, show sample input and output.
 
