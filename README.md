@@ -10,7 +10,7 @@ may document their own tool or environment requirements.
 | Skill | Purpose |
 | --- | --- |
 | [retro-explain](skills/retro-explain/SKILL.md) | Explain retro proposals in plain language, with specific changes and concrete examples. |
-| [iterate-design](skills/iterate-design/SKILL.md) | Refine an existing interface in an interactive HTML copy, compare component styles inline, and apply the agreed changes to the app when requested. |
+| [iterate-design](skills/iterate-design/SKILL.md) | Iteratively refine one in-app prototype, preview component ideas inline when requested, and apply the agreed design when requested. |
 | [to-product-owner](skills/to-product-owner/SKILL.md) | Reframe technical output as prose or a separate HTML artifact around user value, use cases, product vision, and usability for a product owner. |
 
 `retro-explain` is a follow-up to [Matt Pocock’s retro skill](https://github.com/mattpocock/skills/blob/main/skills/engineering/retro/SKILL.md),
