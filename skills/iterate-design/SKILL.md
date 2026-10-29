@@ -11,6 +11,8 @@ Make an interactive copy of an existing interface and refine it with the user. K
 
 Use the user’s screenshot or description to find the page’s source. Reproduce the requested area with enough surrounding context to judge it, matching the app’s styles, content, and responsive layout.
 
+Before using an existing screen or component as a reference, identify its revision and compare it with the intended reference when one is available. If the checkout is behind, inspect the intended revision; preserve local work and the user's chosen branch. State which revision informed the copy and disclose when the reference cannot be checked.
+
 Save one self-contained HTML file in the repo, clearly named as an exploratory copy, near the relevant page or in the project’s existing artifact location. Use inline CSS and JavaScript so it opens without a build step. A short HTML comment can identify the source page and any simulated behavior.
 
 Support the copied area’s UI interactions, including selections, dialogs, dependent content, and validation. Use representative data and in-memory state in place of live APIs or backend processing.
@@ -39,4 +41,6 @@ Use the user’s reply to identify their choice unless the host explicitly repor
 
 ## Capture when done
 
-Fold the validated design into the app using its existing conventions and real behavior, then verify the result. Preserve the HTML exploration on a throwaway branch and record the question, decision, and branch pointer in the implementation issue or commit. Once the implementation is verified and the branch contains the exploration, remove the HTML artifacts created for this work from the working tree and confirm none remain. If verification or preservation fails, retain them and report what remains. Main keeps only the validated changes.
+Fold the validated design into the app using its existing conventions and real behavior. Compare the rendered app with the approved exploration at desktop and mobile widths, including copy, layout, and interactions. Fix unintended differences and record any intentional differences or verification limits before sign-off.
+
+Preserve the HTML exploration on a throwaway branch and record the question, decision, and branch pointer in the implementation issue or commit. Once the implementation is verified and the branch contains the exploration, remove the HTML artifacts created for this work from the working tree and confirm none remain. If verification or preservation fails, retain them and report what remains. Main keeps only the validated changes.
