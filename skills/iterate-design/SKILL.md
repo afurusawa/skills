@@ -33,7 +33,9 @@ Use the host’s inline HTML renderer when available. In T3 Code, use `html_prev
 
 ## Show the result
 
-Provide a direct URL to the page with `?prototype` enabled and the command needed to run the app if it is not already running. Keep that URL pointing to the latest iteration. Briefly describe what changed and any simulated behavior or verification limits.
+Start the app’s development server using the project’s existing command, or reuse an already-running server for this checkout. Wait until it is ready and verify that the prototype URL responds. Leave it running for the user to inspect; if startup or access fails, report the specific blocker.
+
+Provide a clickable Markdown link to the actual page with `?prototype` enabled, using the running server’s address and port. Resolve any route parameters from the user’s reference or available app data so the link opens the intended screen directly. If the required data is unavailable, explain what is missing instead of presenting a placeholder URL as ready to open. Keep the link pointing to the latest iteration. Briefly describe what changed and any simulated behavior or verification limits.
 
 ## Capture when done
 
