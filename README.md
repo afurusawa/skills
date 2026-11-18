@@ -9,6 +9,7 @@ may document their own tool or environment requirements.
 
 | Skill | Purpose |
 | --- | --- |
+| [optimize-tests](skills/optimize-tests/SKILL.md) | Investigate test and CI efficiency, then recommend a plan or deliver authorized improvements with preserved pre-merge coverage. |
 | [retro-explain](skills/retro-explain/SKILL.md) | Explain retro proposals in plain language, with specific changes and concrete examples. |
 | [iterate-design](skills/iterate-design/SKILL.md) | Iteratively refine one in-app prototype, preview component ideas inline when requested, and apply the agreed design when requested. |
 | [to-product-owner](skills/to-product-owner/SKILL.md) | Reframe technical output as prose or a separate HTML artifact around user value, use cases, product vision, and usability for a product owner. |
@@ -24,6 +25,10 @@ and written using his
 
 `to-product-owner` is written using Matt Pocock’s
 [writing-for-agents guidance](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md).
+
+`optimize-tests` is written using Matt Pocock’s
+[writing-for-agents guidance](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md).
+Its agreed scope and authoring walkthrough are in [the design notes](docs/design/optimize-tests.md).
 
 ## Install
 
